@@ -6,7 +6,7 @@ target 'Flechazo' do
   use_frameworks!
 
   # Pods for Flechazo
- # pod 'LookinServer', '1.0.0', :configurations => ['Debug']
+  pod 'LookinServer', '1.0.0', :configurations => ['Debug']
   pod 'SnapKit', '~>5.0.0'
 
 

@@ -1,0 +1,6 @@
+framework module Pods_Flechazo {
+  umbrella header "Pods-Flechazo-umbrella.h"
+
+  export *
+  module * { export * }
+}

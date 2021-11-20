@@ -52,6 +52,10 @@ class ViewController: UIViewController {
         NSLog("btnClicked...")
     }
 
+    // test func
+    func testFunction() {
+        NSLog("testFunction...")
+    }
 
 }
 

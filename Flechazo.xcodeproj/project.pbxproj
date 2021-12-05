@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2ADD84C338BFAF56A6816897 /* Pods_Flechazo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4174AA0A5AFE3DE741BAA84C /* Pods_Flechazo.framework */; };
+		3D351A6D275C982500419371 /* BasicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D351A6C275C982500419371 /* BasicModel.swift */; };
 		3DE47BD9274946A20064582D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE47BD8274946A20064582D /* AppDelegate.swift */; };
 		3DE47BDB274946A20064582D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE47BDA274946A20064582D /* SceneDelegate.swift */; };
 		3DE47BDD274946A20064582D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE47BDC274946A20064582D /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		09E1E38CF2D3FABEF5EEE7EE /* Pods-Flechazo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flechazo.debug.xcconfig"; path = "Target Support Files/Pods-Flechazo/Pods-Flechazo.debug.xcconfig"; sourceTree = "<group>"; };
+		3D351A6C275C982500419371 /* BasicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicModel.swift; sourceTree = "<group>"; };
 		3DE47BD5274946A20064582D /* Flechazo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flechazo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE47BD8274946A20064582D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DE47BDA274946A20064582D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D351A6B275C93E400419371 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3D351A6C275C982500419371 /* BasicModel.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
 		3DE47BCC274946A20064582D = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +75,7 @@
 		3DE47BD7274946A20064582D /* Flechazo */ = {
 			isa = PBXGroup;
 			children = (
+				3D351A6B275C93E400419371 /* RxSwift */,
 				3DE47BD8274946A20064582D /* AppDelegate.swift */,
 				3DE47BDA274946A20064582D /* SceneDelegate.swift */,
 				3DE47BDC274946A20064582D /* ViewController.swift */,
@@ -91,7 +102,6 @@
 				09E1E38CF2D3FABEF5EEE7EE /* Pods-Flechazo.debug.xcconfig */,
 				91C2EEDD263C35A936ABB203 /* Pods-Flechazo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DE47BDD274946A20064582D /* ViewController.swift in Sources */,
+				3D351A6D275C982500419371 /* BasicModel.swift in Sources */,
 				3DE47BE3274946A20064582D /* Flechazo.xcdatamodeld in Sources */,
 				3DE47BD9274946A20064582D /* AppDelegate.swift in Sources */,
 				3DE47BDB274946A20064582D /* SceneDelegate.swift in Sources */,

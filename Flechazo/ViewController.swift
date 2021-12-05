@@ -7,8 +7,12 @@
 
 import UIKit
 import SnapKit
+import RxSwift
+import CloudKit
 
 class ViewController: UIViewController {
+    
+    let rxBasicModel:RxBasicModel = RxBasicModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +44,7 @@ class ViewController: UIViewController {
         btn.snp.makeConstraints { make in
             make.centerX.equalTo(self.view)
             make.top.equalTo(label.snp_bottomMargin).offset(80)
-            make.size.equalTo(CGSize(width: 50, height: 40))
+            make.size.equalTo(CGSize(width: 80, height: 60))
         }
         
     }
@@ -50,12 +54,18 @@ class ViewController: UIViewController {
     // MARK: - click event
     @objc func btnClicked() {
         NSLog("btnClicked...")
-    }
-
-    // test func
-    func testFunction() {
-        NSLog("testFunction...")
+        // 1. Observalbe
+//        testObservable()
+        // 2. Subject
+//        rxBasicModel.testSubject()
+        rxBasicModel.testSubject()
     }
 
 }
+
+
+
+
+
+
 
